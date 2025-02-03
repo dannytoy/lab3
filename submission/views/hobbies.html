@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            padding: 15px;
+        }
+        .card-img-top {
+            width: 50%;
+            height: auto;
+            margin: 10px auto;
+        }
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                </ul>
+                <img src="../resources/img/iconhobby.png" alt="Icon" class="ms-auto" style="width:40px;">
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hobbies Section -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">My Hobbies</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../resources/img/badmin.jpg" class="card-img-top" alt="Hobby 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Badminton</h5>
+                        <p class="card-text">Badminton is a fun sport that I really got into about 2 years ago. It has lots of levels of play and the skill ceiling is high, which makes me excited to get better at it with my friends.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../resources/img/gamin.jpg" class="card-img-top" alt="Hobby 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Gaming</h5>
+                        <p class="card-text">Gaming and games, in general, have always been part of my life. It is a fun escape and also gives me another thing to try to be the best at. I mostly play FPS, fighting games, and MOBAs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../resources/img/keeb.jpg" class="card-img-top" alt="Hobby 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Keyboard Building</h5>
+                        <p class="card-text">Along with gaming and coding, keyboards are essential. I got into building high-quality keyboards to learn more about physical technology and got really into it. A very expensive hobby though...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Follow me on <a href="https://www.instagram.com/chiisaidanny/" class="text-white" target="_blank">Instagram</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
